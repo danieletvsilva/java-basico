@@ -15,7 +15,6 @@ public class LeituraDadosTeclado {
 		System.out.println("Digite seu primeiro nome: ");
 		String primeiroNome = scan.next(); // Lê só uma string
 		System.out.println("Seu primeiro nome é: " + primeiroNome);
-
 		
 		System.out.println("Digite a sua idade: ");
 		int idade = scan.nextInt();
@@ -24,7 +23,7 @@ public class LeituraDadosTeclado {
 		System.out.println("Qual a sua altura?  ");
 		double altura = scan.nextDouble();
 		System.out.println("Sua altura é: " + altura);*/
-		
+				
 		System.out.println("Digite o seu primeiro nome, idade, quantidade de filhos, bichos de estimação: ");
 		String primeiroNome = scan.next();
 		int idade = scan.nextInt();
@@ -37,8 +36,6 @@ public class LeituraDadosTeclado {
 		System.out.println("Idade: " + idade);
 		System.out.println("Filhos: " + qtdFilhos);
 		System.out.println("Altura: "+ altura);
-		System.out.println("Pet: " + temPet);
-	
+		System.out.println("Pet: " + temPet);	
 	}
-
 }
